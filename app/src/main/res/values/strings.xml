@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Fashion News</string>
+    <string name="no_news_error">No news found!</string>
+    <string name="no_internet_connection_error">No internet connection available.</string>
+
+
+    <!-- SettingsActivity -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!--News to display Preference -->
+    <string name="news_to_display_label">News to display</string>
+    <string name="news_to_display" translatable="false">news_to_display</string>
+    <string name="news_to_display_default" translatable="false">15</string>
+
+    <!-- Order-By Preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_date_value</string>
+
+    <!-- Order-by newest news option-->
+    <string name="settings_order_by_newest_date_label">Newest</string>
+    <string name="settings_order_by_newest_date_value" translatable="false">newest</string>
+
+    <!-- Order-by oldest news option -->
+    <string name="settings_order_by_oldest_date_label">Oldest</string>
+    <string name="settings_order_by_oldest_date_value" translatable="false">oldest</string>
+
+    <!-- Order-by relevance news option -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="my_key">aa810eb9-f4a7-4abd-a96c-19e3bd473171</string>
+    <string name="show_tags">show-tags</string>
+    <string name="author">contributor</string>
+    <string name="order_by">order-by</string>
+    <string name="sort_by">page-size</string>
+    <string name="api_key">api-key</string>
+
+</resources>

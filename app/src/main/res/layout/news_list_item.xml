@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:paddingEnd="@dimen/list_padding_end"
+    android:paddingLeft="@dimen/list_padding_start"
+    android:paddingRight="@dimen/list_padding_end"
+    android:paddingStart="@dimen/list_padding_start">
+
+    <TextView
+        android:id="@+id/newsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/texts_margin_top"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="News Title" />
+
+    <TextView
+        android:id="@+id/newsAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/newsTitle"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        tools:text="Author:" />
+
+    <TextView
+        android:id="@+id/newsCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newsAuthor"
+        android:layout_marginBottom="@dimen/texts_margin_buttom"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        tools:text="News Category:" />
+
+    <TextView
+        android:id="@+id/newsDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/newsAuthor"
+        android:layout_marginBottom="@dimen/texts_margin_buttom"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="Date:" />
+
+</RelativeLayout>

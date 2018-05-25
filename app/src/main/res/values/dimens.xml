@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divider_height">2dp</dimen>
+    <dimen name="list_padding_start">16dp</dimen>
+    <dimen name="list_padding_end">8dp</dimen>
+    <dimen name="texts_margin_top">16dp</dimen>
+    <dimen name="texts_margin_buttom">16dp</dimen>
+</resources>
