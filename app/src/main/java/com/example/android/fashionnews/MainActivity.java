@@ -21,7 +21,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<News>>{
+public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<News>> {
 
     private static final String GUARDIAN_REQUEST_URL =
             "http://content.guardianapis.com/search?show-tags=contributor&page-size=100&q=fashion&api-key=test";
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         uriBuilder.appendQueryParameter(getString(R.string.show_tags), getString(R.string.author));
         uriBuilder.appendQueryParameter(getString(R.string.order_by), orderByDate);
         uriBuilder.appendQueryParameter(getString(R.string.sort_by), news_to_display);
-        //uriBuilder.appendQueryParameter(getString(R.string.api_key), getString(R.string.my_key));
+
         // Create a new loader for the given URL
         return new NewsLoader(this, uriBuilder.toString());
 

@@ -16,8 +16,7 @@
         android:layout_marginTop="@dimen/texts_margin_top"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@android:color/white"
-        android:textStyle="bold"
-        tools:text="News Title" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/newsAuthor"
@@ -27,8 +26,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/newsTitle"
         android:textColor="@android:color/white"
-        android:textStyle="italic"
-        tools:text="Author:" />
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/newsCategory"
@@ -37,8 +35,7 @@
         android:layout_below="@+id/newsAuthor"
         android:layout_marginBottom="@dimen/texts_margin_buttom"
         android:textColor="@android:color/white"
-        android:textStyle="italic"
-        tools:text="News Category:" />
+        android:textStyle="italic" />
 
     <TextView
         android:id="@+id/newsDate"
@@ -49,7 +46,6 @@
         android:layout_below="@+id/newsAuthor"
         android:layout_marginBottom="@dimen/texts_margin_buttom"
         android:textColor="@android:color/white"
-        android:textStyle="bold"
-        tools:text="Date:" />
+        android:textStyle="bold" />
 
 </RelativeLayout>

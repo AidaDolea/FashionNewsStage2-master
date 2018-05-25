@@ -9,7 +9,7 @@
     <string name="settings_title">News Settings</string>
 
     <!--News to display Preference -->
-    <string name="news_to_display_label">News to display</string>
+    <string name="news_to_display_label">News to display (max value=100)</string>
     <string name="news_to_display" translatable="false">news_to_display</string>
     <string name="news_to_display_default" translatable="false">15</string>
 
@@ -30,11 +30,11 @@
     <string name="settings_order_by_relevance_label">Relevance</string>
     <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
 
-    <string name="my_key">aa810eb9-f4a7-4abd-a96c-19e3bd473171</string>
+
     <string name="show_tags">show-tags</string>
     <string name="author">contributor</string>
     <string name="order_by">order-by</string>
     <string name="sort_by">page-size</string>
-    <string name="api_key">api-key</string>
+
 
 </resources>

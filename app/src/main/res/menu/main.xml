@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:tools="http://schemas.android.com/tools"
-      tools:context="com.example.android.fashionnews.MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.fashionnews.MainActivity">
     <item
         android:id="@+id/action_settings"
         android:title="@string/settings_menu_item"
-
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"
         />
 
 

@@ -25,7 +25,7 @@ import java.util.Locale;
 public class NewsAdapter extends ArrayAdapter<News> {
 
     public NewsAdapter(@NonNull Context context, List<News> news) {
-        super(context, 0,news);
+        super(context, 0, news);
     }
 
     @NonNull

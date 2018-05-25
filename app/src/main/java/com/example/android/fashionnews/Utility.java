@@ -173,7 +173,7 @@ public class Utility {
                 String newsUrl = currentNews.getString("webUrl");
 
                 // Extract the JSONArray for the key called "tags",
-                JSONArray currentAuthor= currentNews.getJSONArray("tags");
+                JSONArray currentAuthor = currentNews.getJSONArray("tags");
                 String newsAuthor = "Author: Not available";
                 int tag = currentAuthor.length();
                 if (tag == 1) {
